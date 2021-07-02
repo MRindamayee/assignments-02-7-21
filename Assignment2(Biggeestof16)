@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class Help2
+{
+public static void main(String args[])
+{   
+Scanner sc = new Scanner(System.in);      
+System.out.println("enter the values");
+int m = sc.nextInt();
+int r = sc.nextInt();
+int i = sc.nextInt();
+int n = sc.nextInt();
+int d = sc.nextInt();
+int q = sc.nextInt();
+int w = sc.nextInt();
+int a = sc.nextInt();
+int y = sc.nextInt();
+int e = sc.nextInt();
+int x = sc.nextInt();
+int s = sc.nextInt();
+int g = sc.nextInt();
+int o = sc.nextInt();
+int k = sc.nextInt();
+int t = sc.nextInt();
+int u1 = (int) Math.max(Math.max(m,r), Math.max(i,n));
+int u2 = (int) Math.max(Math.max(d,q), Math.max(w,a));
+int u3 = (int) Math.max(Math.max(y,e), Math.max(x,s));
+int u4 = (int) Math.max(Math.max(g,o), Math.max(k,t));
+int u5 = (int) Math.max(Math.max(u1,u2), Math.max(u3,u4));
+System.out.println("biggest no is--  "+ u5);
+}
+}
